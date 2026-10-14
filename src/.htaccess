@@ -1,0 +1,30 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^admin/(guests|rooms|booked-rooms|payments|checkin|invoices|invoice-print)\.php$ admin/dashboard.php?page=$1 [L,QSA,NC]
+
+# Deny direct access to config folder
+<FilesMatch "^database\.php$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order Allow,Deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+# Block access to SQL file from web
+<FilesMatch "\.sql$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order Allow,Deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+# Pretty errors
+ErrorDocument 403 "Access denied."
+ErrorDocument 404 "Page not found."

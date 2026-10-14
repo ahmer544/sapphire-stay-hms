@@ -1,0 +1,12 @@
+{
+  "name": "sapphire/stay",
+  "description": "Sapphire Stay Hotel Management System",
+  "require": {
+    "stripe/stripe-php": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sapphire\\": "src/"
+    }
+  }
+}
