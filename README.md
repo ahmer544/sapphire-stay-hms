@@ -25,7 +25,8 @@ The software architecture and database schema were designed using formal UML mod
 * **Database:** MySQL
 * **Payment Integration:** Stripe API
 
-## Project Documentation
-For the complete software requirements specification (SRS), system design analysis, network setups, and project thesis:
+##Project Documentation
 
-📄 **[View Full FYP Thesis Document](docs/SapphireStayThesis.pdf)**
+For the complete Software Requirements Specification (SRS), system design analysis, network setup, and project thesis:
+
+📄 "View Full FYP Thesis Document" (Sapphire Stay Thesis.pdf)
