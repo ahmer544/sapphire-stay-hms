@@ -28,4 +28,4 @@ The software architecture and database schema were designed using formal UML mod
 ## Project Documentation
 For the complete software requirements specification (SRS), system design analysis, network setups, and project thesis:
 
-📄 **[View Full FYP Thesis Document](docs/Sapphire Stay Thesis.pdf)**
+📄 **[View Full FYP Thesis Document](docs/SapphireStayThesis.pdf)**
