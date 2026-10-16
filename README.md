@@ -12,10 +12,12 @@ Sapphire Stay is a web-based hotel management system developed as a Computer Sci
 The software architecture and database schema were designed using formal UML modeling and ERD mapping before development:
 
 ### UML Use Case Diagram
-![UML Use Case Diagram](assets/uml.png)
+<img width="2634" height="2634" alt="Usecase Diagram" src="https://github.com/user-attachments/assets/86584de8-064e-4f0d-8058-6bf2a70216a0" />
+
 
 ### Entity-Relationship Diagram (ERD)
-![Database ERD](assets/erd.png)
+<img width="1135" height="883" alt="ERD" src="https://github.com/user-attachments/assets/f08687f9-e0e9-493a-a91c-d9109a5ae3b2" />
+
 
 *Note: If your diagram image filenames in the `assets` folder are different (e.g., `use-case.png` or `erd.jpg`), update the file extensions above to match.*
 
@@ -29,4 +31,5 @@ The software architecture and database schema were designed using formal UML mod
 
 For the complete Software Requirements Specification (SRS), system design analysis, network setup, and project thesis:
 
-[View Full FYP Thesis Document](docs/Sapphire%20Stay%20Thesis.pdf)
+[Sapphire Stay Thesis.pdf](https://github.com/user-attachments/files/33569421/Sapphire.Stay.Thesis.pdf)
+
